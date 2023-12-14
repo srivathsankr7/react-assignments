@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+.header {
+  height: 150px;
+}
+
+.body {
+  /*flex: 1;*/
+}
+
+.footer {
+  height: 25px;
+}
+
+.navbar {
+  float: right;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+li a:hover {
+  color: black;
+  background-color: white;
+}
