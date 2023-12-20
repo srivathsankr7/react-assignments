@@ -1,0 +1,98 @@
+.about,
+.contact {
+  min-height: 60vh;
+  margin: 20px;
+  padding: 20px;
+}
+
+.banner-img {
+  width: 150px;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.link:hover {
+  background-color: green;
+  color: white;
+}
+
+main {
+  margin: 20px;
+}
+
+.cards {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 300px;
+  height: 350px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  width: 250px;
+  height: 200px;
+}
+
+footer {
+  margin: 20px;
+  padding: 10px;
+}
+
+.menu {
+  margin: 50px;
+  padding: 20px 20px;
+}
+
+.item {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.cardlink {
+  color: inherit;
+  text-decoration: none;
+}
