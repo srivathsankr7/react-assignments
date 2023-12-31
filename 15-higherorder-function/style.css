@@ -1,0 +1,28 @@
+.menu {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+.card {
+  width: 250px;
+}
+
+.card > * {
+  margin: 10px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.promoted {
+  color: white;
+  background-color: black;
+  display: block;
+  position: absolute;
+  padding: 2px;
+  margin: -20px;
+}
